@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background:rgba(3, 8, 51, 1);
+  }
+/*navigation*/
+.navbar{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:rgba(3, 8, 51, 1);
+    z-index: 9;
+    display: flex;
+    align-items: center;
+}
+.navbar p{
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: large;
+    left: 0;
+}
+.nav_img{
+    margin-left: 1390px;
+}
+.nav-icon1{
+  display: flex;
+  flex-direction: row;
+  margin-left: 1000px;
+}
+.nav-icon a{
+  color: #fff;
+  margin-left: 15px;
+  font-size: 18px;
+  cursor: pointer; 
+  text-decoration: none; 
+}
+.nav-icon a:hover{
+  color:blue;
+    transform: scale(1.4);
+    transition: 0.7s;
+  }
+/*navigation*/
+/*about start*/
+.container2{
+    position: absolute;
+    width: 1600px;
+    height: 650px;
+    top: 60px;
+    background: rgba(3, 8, 51, 1);
+}
+  .sub-container2{
+    flex-direction: row;
+    display: flex;
+  }
+  .about-name{
+      color: #fff;
+      margin-left: 735px;
+      font-size: 30px;
+      font-weight: 600;
+      text-decoration: underline;
+  }
+  .container2 .about1 .pic{ 
+    width: 300px;
+    height: 400px;
+    margin-left: 180px;
+    border-radius: 25px;
+    margin-top: 35px;
+    cursor: pointer;
+ }
+ .container2 .about1 .pic:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+ }
+ .hi{
+     color: #fff;
+     font-size: 30px;
+     margin-left: 90px;
+     margin-top: 55px;
+ }
+ .hii{
+     color: #fff;
+     font-size: 27px;
+     margin-left:90px;
+     line-height: 50px;
+     width: 850px;
+ }
+ /*about end*/
+ /*media query*/
+
+@media (max-width: 767px) {
+  /*navigation start*/
+  .navbar {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:rgba(3, 8, 51, 1);
+    z-index: 9;
+    display: flex;
+    align-items: center;
+  
+  }
+  .navbar p{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 0.005px;
+    display: none;
+    font-size: large;
+  
+}
+  .nav-icon1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    }
+/*navigation end*/
+/*about start*/
+.container2 {
+  top: 60px;
+  height: 650px;
+  width: 900px;
+}
+.sub-container2{
+  flex-direction: column;
+  display: flex;
+}
+.about-name{
+  margin-left: 360px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.container2 .about1 .pic{ 
+width: 300px;
+height: 400px;
+margin-left: 255px;
+border-radius: 25px;
+margin-top: 35px;
+cursor: pointer;
+}
+.hi{
+font-size: 25px;
+margin-left: 180px;
+margin-top: 45px;
+}
+.hii{
+color: #fff;
+font-size: 20px;
+margin-left:180px;
+line-height: 30px;
+width: 550px;
+margin-top: 20px;
+}
+/*about start*/
+}
