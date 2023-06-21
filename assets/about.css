@@ -102,7 +102,7 @@
 @media (max-width: 767px) {
   /*navigation start*/
   .navbar {
-    width: 100px;
+    width: 100%;
     height: 50px;
     position: fixed;
     top: 0;
@@ -131,7 +131,7 @@
 .container2 {
   top: 60px;
   height: 650px;
-  width: 900px;
+  width: 500px;
 }
 .sub-container2{
   flex-direction: column;
@@ -152,16 +152,17 @@ cursor: pointer;
 }
 .hi{
 font-size: 25px;
-margin-left: 180px;
+margin-left: 240px;
 margin-top: 45px;
 }
 .hii{
 color: #fff;
 font-size: 20px;
-margin-left:180px;
+margin-left:250px;
 line-height: 30px;
 width: 550px;
 margin-top: 20px;
+left: 10px;
 }
 /*about start*/
 }
