@@ -490,7 +490,7 @@ input[type="submit"]{
 /*media query*/
 /*media query*/
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   /*navigation start*/
   .navbar {
     width: 100%;
@@ -526,14 +526,14 @@ input[type="submit"]{
   }
 
   .text .name {
-    margin-left: 20px;
+    margin-left: 5px;
     margin-top: 50px;
     font-size: 30px;
   }
 
   .wrapper .static-txt,
   .dynamic-txts {
-    margin-left: 20px;
+    margin-left: 5px;
   }
 
   .dynamic-txts li {
@@ -745,13 +745,13 @@ cursor:pointer;
 }
 .hi{
   font-size: 25px;
-  margin-left: 180px;
+  margin-left: 190px;
   margin-top: 45px;
 }
 .hii{
   color: #fff;
   font-size: 20px;
-  margin-left:180px;
+  margin-left:190px;
   line-height: 30px;
   width: 550px;
   margin-top: 20px;
