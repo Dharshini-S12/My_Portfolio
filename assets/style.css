@@ -724,7 +724,8 @@ cursor:pointer;
   .container2 {
     top: 750px;
     height: 650px;
-    width: 900px;
+    width: 600%;
+    max-width: 750px;
   }
   .sub-container2{
     flex-direction: column;
