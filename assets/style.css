@@ -724,7 +724,7 @@ cursor:pointer;
   .container2 {
     top: 750px;
     height: 650px;
-    width: 600%;
+    width: -120px;
     max-width: 750px;
   }
   .sub-container2{
@@ -742,7 +742,7 @@ cursor:pointer;
   margin-left: 255px;
   border-radius: 25px;
   margin-top: 35px;
-  cursor: pointer;
+  cursor: pointer
 }
 .hi{
   font-size: 25px;
@@ -752,10 +752,12 @@ cursor:pointer;
 .hii{
   color: #fff;
   font-size: 20px;
-  margin-left:190px;
-  line-height: 30px;
+  /*margin-left:190px;*/
+  line-height: 40px;
   width: 550px;
   margin-top: 20px;
+  text-align: justify;
+  margin: auto;
 }
 /*about start*/
 /*skill start*/
