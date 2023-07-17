@@ -516,7 +516,7 @@ input[type="submit"]{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 768px;
+    width: 400px;
     background:rgba(3, 8, 51, 1);
   }
   /*navigation start*/
@@ -664,7 +664,7 @@ input[type="submit"]{
   color: #fff;
   font-size: 35px;
   font-weight: 350;
-  margin-left: 30px;
+  margin-left: 50px;
   line-height: 75px;
 }
 .wrapper .dynamic-txts{
