@@ -729,10 +729,13 @@ cursor:pointer;
 }
 .padd{
   display: flex;
-  margin-left: 1px;
+  margin-left: 0.05%;
   line-height: 70px;
    
 }  
+.homeimg{
+  margin-left: -20px;
+}
 .homewrapper{
   margin-top: -350px;
   width: 100%;
