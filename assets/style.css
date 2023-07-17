@@ -553,10 +553,11 @@ input[type="submit"]{
     /*height: 100vh;
     top: 0;*/
     top: 40px;
-    left: 10px;
+    left: 15px;
     width: 500px;
-    height: 650px;
+    height: 690px;
     display: block;
+    border-radius: 50px;
     /*text-align: center;*/
     
 
@@ -578,14 +579,14 @@ input[type="submit"]{
   }*/
   .text{
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     margin-top: 50px;
   }
   .text .name1{
       color: #fff;
       font-size: 40px;
       font-weight: 500;
-      margin-left: 80px;
+      margin-left: 33px;
       top: 380px;
       margin-top: 120px; 
   }
@@ -593,9 +594,9 @@ input[type="submit"]{
     color: #fff;
     font-size: 40px;
     font-weight: 500;
-    margin-left: 80px;
-    top: 200px;
-    margin-top: 1px; 
+    margin-left: 10px;
+    top: 380px;
+    margin-top: 120px; 
   }
   /*.wrapper{
     display: flex;
@@ -663,7 +664,7 @@ input[type="submit"]{
   color: #fff;
   font-size: 35px;
   font-weight: 350;
-  margin-left: 80px;
+  margin-left: 35px;
   line-height: 75px;
 }
 .wrapper .dynamic-txts{
@@ -728,7 +729,7 @@ cursor:pointer;
 }
 .padd{
   display: flex;
-  margin-left: 60px;
+  margin-left: 20px;
   line-height: 70px;
    
 }  
