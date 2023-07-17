@@ -664,7 +664,7 @@ input[type="submit"]{
   color: #fff;
   font-size: 35px;
   font-weight: 350;
-  margin-left: 50px;
+  margin-left: 8px;
   line-height: 75px;
 }
 .wrapper .dynamic-txts{
@@ -729,7 +729,7 @@ cursor:pointer;
 }
 .padd{
   display: flex;
-  margin-left: 20px;
+  margin-left: 1px;
   line-height: 70px;
    
 }  
