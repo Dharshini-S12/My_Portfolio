@@ -586,7 +586,7 @@ input[type="submit"]{
       color: #fff;
       font-size: 40px;
       font-weight: 500;
-      margin-left: 15px;
+      margin-left: 8px;
       top: 380px;
       margin-top: 120px; 
   }
@@ -664,7 +664,7 @@ input[type="submit"]{
   color: #fff;
   font-size: 35px;
   font-weight: 350;
-  margin-left: 15px;
+  margin-left: 8px;
   line-height: 75px;
 }
 .wrapper .dynamic-txts{
